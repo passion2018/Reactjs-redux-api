@@ -1,5 +1,6 @@
-export const test = () => {
+export const test = (product) => {
   return {
-    type: TEST
+    type: TEST,
+    product
   }
 }
